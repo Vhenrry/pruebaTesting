@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ArticulosService should delete an articulo: No se encontró el artículo buscado 1`] = `"No se encontró el artículo a eliminar"`;
