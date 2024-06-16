@@ -1,27 +1,45 @@
-## Installation
+## Configuración del Proyecto
 
-$ npm install
+### Requisitos
 
-## Test
+- Node.js v20 o superior
+- Acceso a Internet para descargar el proyecto
 
-# test borradores
+### Instrucciones de ejecución
 
-$ npm run test:borradores
+1. Clona el repositorio:
+   ```bash
+   git clone https://github.com/Vhenrry/pruebaTesting.git
+   ```
+2. Instala las dependencias:
+   ```bash
+   $ npm install
+   ```
+   
+## Instrucciones de ejecución de Testing
 
-# test parciales
+1. Test completo borradores:
+   ```bash
+   $ npm run test:borradores
+   ```
+## Instrucciones de ejecución de Testing de pruebas unitarias y de Integracion
 
-## Pruebas Unitarias del servicio
+### Pruebas Unitarias del servicio
+   ```bash
+   $ npm run test borradores.service.spec.ts
+   ```
 
-$ npm run test borradores.service.spec.ts
+### Pruebas Unitarias del repository
+   ```bash
+   $ npm run test borradores.repository.spec.ts
+   ```
 
-## Pruebas Unitarias del servicio
+### Pruebas Unitarias del controller
+   ```bash
+   $ npm run test borradores.controller.spec.ts
+   ```
 
-$ npm run test borradores.repository.spec.ts
-
-## Pruebas Unitarias del servicio
-
-$ npm run test borradores.controller.spec.ts
-
-## Pruebas Integradas
-
-$ npm run test borradores.controller.integration.spec.ts
+### Pruebas Integracion del servicio
+   ```bash
+   $ npm run test borradores.controller.integration.spec.ts
+   ```
